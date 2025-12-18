@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 
 public class Main {
 	public static void main(String[] args) {
-		Class<Usuario> clazz = Usuario.class;
+		Class<Usuario> clazz = Usuario.class; 
 
 		System.out.println("Campos:");
 		for (Field f : clazz.getDeclaredFields()) {
